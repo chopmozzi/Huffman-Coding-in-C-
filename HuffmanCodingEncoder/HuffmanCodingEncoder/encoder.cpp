@@ -175,13 +175,13 @@ public:
 			//bitset을 하면 이진수의 순서가 바뀌므로
 			reverse(bit.begin(), bit.end());
 			reverse(bit2.begin(), bit2.end());
-			for (int j = 0; j < (16 + it->second.second.length());j++)
+			for (int j = 0; j < (16 + it->second.second.length()); j++)
 			{
 				if (j == 0)
 				{
 					if (codesize % 8 != 0)
 					{	//8bit를 A문자를 넣어 채워줌
-						for (int k = 0; k < 8 * (codesize / 8 + 1) - codesize;k++)
+						for (int k = 0; k < 8 * (codesize / 8 + 1) - codesize; k++)
 						{
 							it->second.second += "A";
 						}
@@ -321,7 +321,7 @@ int main(void)
 		strncpy(sep, hfcode.c_str() + i * 8, 8);
 		unsigned int data = strtol(sep, NULL, 2);
 		if (i >= hfcode.size() / 8)
-		{	
+		{
 			int shift = 8 - strlen(sep);
 			data = data << shift;
 		}

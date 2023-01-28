@@ -65,7 +65,7 @@ public:
 		root = NULL;
 	}
 	~HTree() //¼Ò¸êÀÚ
-	{	
+	{
 		stack<Node*> st;
 		st.push(root);
 		while (!st.empty())

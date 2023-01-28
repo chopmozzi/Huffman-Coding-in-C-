@@ -1,1 +1,1 @@
-# Huffman-Coding-in-C-
+# Huffman_Coding_in_CPP

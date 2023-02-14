@@ -3,7 +3,7 @@
 - c++로 작성된 Huffman_Coding입니다.
 - Encoder와 Decoder 두개로 나누어져 동작합니다.
 - Huffman Coding에 대한 내용과 세부설계과정은 해당 링크에서 확인할 수 있습니다.
-- [Huffman_Coding(notion)](https://abalone-fahrenheit-80e.notion.site/Huffman-Coding-47050af0444245cd8980b7273e9eedfe)
+- [Huffman_Coding(notion)](https://abalone-fahrenheit-80e.notion.site/Huffman-Coding-5c3a595ea5394cb5834a84cab88bc69a)
 ---
 ## How to run?
 - Visual Studio Community 2019`(Project Build)`로 작성되었습니다.
